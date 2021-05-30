@@ -1581,7 +1581,6 @@ section {
 }
 
 .contact .php-email-form .form-group {
-  width: 100px;
   padding-bottom: 8px;
 }
 
@@ -1676,7 +1675,6 @@ section {
     transform: rotate(360deg);
   }
 }
-
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
