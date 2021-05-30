@@ -552,8 +552,7 @@ section {
 
 .about .content ul {
   list-style: none;
-  width: 70%;
-  margin: auto;
+  padding: 0;
 }
 
 .about .content ul li {
