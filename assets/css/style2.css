@@ -551,10 +551,9 @@ section {
 }
 
 .about .content ul {
-  justify-content: center;
-  display: flex;
   list-style: none;
-  padding: 0;
+  width: 70%;
+  margin: auto;
 }
 
 .about .content ul li {
