@@ -215,10 +215,11 @@ body {font-family: Arial, Helvetica, sans-serif;}
         
         
         <div class="row mt-5">
-
+          
+          <center>
           <div class="col-lg-8 mt-5 mt-lg-0">
             
-            <center>
+            
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               
               <div class="row">
@@ -231,37 +232,21 @@ body {font-family: Arial, Helvetica, sans-serif;}
                 </div>
               </div>
               
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="University/School Name" required>
+              </div>
               
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <!-- mt-3 mt-md-3 -->
-                  <input type="info" class="form-control" name="school" id="school" placeholder="University/School Name" required>
-                </div>
-                <div class="col-md-6 form-group">
-                  <input type="info" name="years" class="form-control" id="years" placeholder="# of workout days per week" required>
-                </div>
-              
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="info" name="years" class="form-control" id="years" placeholder="Years of Gym Experience" required>
-                </div>
-                <div class="col-md-6 form-group">
-                  <!-- mt-3 mt-md-3 -->
-                  <input type="info" class="form-control" name="age" id="age" placeholder="Age" required>
-                </div>
-                
-
               </div>
               
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="4" placeholder="Additional Information" required></textarea>
+                <textarea class="form-control" name="message" rows="4" placeholder="Additional Information (years of gym experience, # of workout days per week, exercise preferences, etc.)" required></textarea>
               </div>
               
               
               <div class="text-center"><button id = "myBtn">Send Message</button></div>
-                </form></center>
+                </form>
 
-          </div>
+          </div></center>
 
           </div>
 
